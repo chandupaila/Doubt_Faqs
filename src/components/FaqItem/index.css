@@ -1,0 +1,38 @@
+.list-item {
+  border: 1px solid #d7dae6;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.question {
+  color: #52606d;
+  font-size: larger;
+  margin-bottom: 15px;
+}
+
+.answer {
+  color: #9aa5b1;
+  font-size: small;
+}
+
+.image {
+  width: 15px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
